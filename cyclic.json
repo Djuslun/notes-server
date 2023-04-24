@@ -1,0 +1,12 @@
+{
+  "server": {
+    "routes": {
+      "/api/*": {
+        "cors": {
+          "origin": "*"
+        }
+      }
+    }
+  },
+  "package": "server/package.json"
+}
